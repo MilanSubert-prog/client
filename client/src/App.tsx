@@ -1,6 +1,5 @@
 import React from "react";
-import { Event } from "./components/Event";
-import { DateRecord } from "./components/Date";
+import { Event, DateRecord } from "./components/Event";
 
 type TestData = { id: number; title: string; location: string; dates: DateRecord[] };
 
